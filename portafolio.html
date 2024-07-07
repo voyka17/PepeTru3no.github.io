@@ -15,57 +15,76 @@
 </head>
 
 <body>
-    <table border="1">
-        <thead>
-            <tr>
-                <th colspan="2">Portafolio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Curriculum Html</td>
-                <td><a href="index.html">
-                        <img src="./assets/imgs/Captura.PNG" width="900" height="700" alt="Curriculum Vitae"
-                            title="Captura de Curriculum Vitae">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Proyecto 2</td>
-                <td>
-                    <a href="index.html">
-                        <img src="./assets/imgs/landingPage.png" width="900" height="700" alt="Curriculum Vitae"
-                            title="Captura de Curriculum Vitae">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Proyecto 3</td>
-                <td>
-                    <a href="index.html">
-                        <img src="./assets/imgs/iguanaPage.png" width="900" height="700" alt="Curriculum Vitae"
-                            title="Captura de Curriculum Vitae">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Proyecto 4</td>
-                <td>
-                    <a href="index.html">
-                        <img src="./assets/imgs/cuppon.png" width="900" height="700" alt="Curriculum Vitae"
-                            title="Captura de Curriculum Vitae">
-                    </a>
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="2">
-                    <a href="index.html">Volver al Curriculum</a>
-                </th>
-            </tr>
-        </tfoot>
-    </table>
+    <div class="container-fluid">
+        <h2 class="d-flex justify-content-center"><i class="fa-solid fa-briefcase"></i>Portafolio</h2>
+        <div class="album py-5">
+            <div class="row row-cols-1 row-cols-sm-3 ">
+                <div class="col pb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/imgs/Captura.PNG" class="card-img-top">
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text roboto-medium">
+                                <i class="fa-solid fa-file"></i>
+                                Primer proyecto, Curriculum Vitae
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/imgs/landingPage.png" class="card-img-top">
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text roboto-medium">
+                                <i class="fa-solid fa-file"></i>
+                                Segundo proyecto, Landing Page
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/imgs/iguanaPage.png" class="card-img-top">
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text roboto-medium">
+                                <i class="fa-solid fa-file"></i>
+                                Tercer proyecto, Iguana Page
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/imgs/cuppon.png" class="card-img-top">
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text roboto-medium">
+                                <i class="fa-solid fa-file"></i>
+                                Cuarto proyecto, Cuppon
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="./assets/imgs/github.png" class="card-img-top">
+                        <hr>
+                        <div class="card-body">
+                            <p class="card-text roboto-medium">
+                                <i class="fa-solid fa-file"></i>
+                                Quinto Proyecto, Clone gitHub
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="roboto-medium d-flex justify-content-center">
+            <a href="index.html">Volver al Curriculum</a>
+        </footer>
+    </div>
     <script src="https://kit.fontawesome.com/2162a61927.js" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>

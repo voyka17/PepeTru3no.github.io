@@ -1,14 +1,45 @@
-.colorNav {
-    background-color: rgb(26, 177, 59);
-}
-
-#Hero-Section {
+#cabecera {
     background-image: url("../imgs/fotoCurriculum.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
 }
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
-nav{
-    position: sticky
+.roboto-light-white {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+.roboto-light-gris{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #707070;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-medium-succes {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #28a745;
+}
+
+.roboto-medium-white {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
 }
