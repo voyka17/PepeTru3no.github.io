@@ -15,32 +15,206 @@
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <h1>Curriculum Vitae</h1>
-    <img src="./assets/imgs/fotoCurriculum.jpg" alt="Foto de Jose Vinet" width="150" height="150" title="Jose Vinet"/>
-    <h2>Jose Enrique Vinet Campos</h2>
-    <h3>Objetivos</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, repellat mollitia suscipit 
-        repellendus sed facere ducimus officiis temporibus nihil praesentium, ex alias porro et explicabo 
-        soluta minus eum omnis hic nobis quam atque a recusandae. Perferendis doloribus repellendus natus 
-        totam explicabo facilis. Consequuntur praesentium omnis voluptatem repellat a, quia commodi, 
-        dolorum perspiciatis dolores exercitationem, repudiandae iusto cumque? </p>
-    <h3>Antecedentes Personales</h3>
-    <ul>
-        <li>Nacionalidad: Chilena</li>
-        <li>Fecha de Nacimiento: 30 de octubre de 1983</li>
-        <li>Comuna: San Bernardo</li>
-        <li>E-mail: jvinetc@gmail.com</li>
-    </ul>
-    <h3>Formacion</h3>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Culpa maxime perspiciatis ullam doloribus quae in provident dolor accusantium quis quibusdam.
-    <h3>Enlaces de interes</h3>
-    <ol>
-        <li><a href="https://www.linkedin.com/in/jose-enrique-vinet-campos-0317a473?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="_blank">
-            LinkedIn</a></li>
-        <li><a href="portafolio.html">Portafolio</a></li>
-    </ol>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>Jose Enrique Vinet Campos</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/jose-enrique-vinet-campos-0317a473?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank">
+                        LinkedIn</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    La realidad, <br> supera la ficcion
+                </h1>
+                <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
+                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
+                    mollitia inventore provident labore voluptatum nemo.
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
+                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="Acerca-de-mi" class="container text-center my-5">
+
+
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+
+        <p class="my-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
+            earum itaque cum sequi, dolorem optio vol
+        </p>
+
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-code fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Desarrollador</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-regular fa-building fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Constructor</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-pen-nib fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Escritor</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/pexels-goumbik-574071.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Desarrollo de Aplicaciones</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Explicabo iure sint, perspiciatis distinctio molestias nihil
+                            repudiandae neque rem adipisci repellendus libero illo quo
+                            blanditiis, velit quasi ad, recusandae voluptates officia.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/foto-estructura.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Fabricacion de estructuras</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
+                            consequatur quos error fuga excepturi quo. Laudantium optio
+                            pariatur laboriosam modi, ea molestias?
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <div class="image-top" style="background-image: url(assets/img/pexels-olly-3808904.jpg)"></div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cuento: Instinto Materno</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Obcaecati facere quibusdam sint id laborum magni velit ducimus
+                            corporis facilis qui architecto dolor, accusamus eveniet
+                            exercitationem fugit. Quod autem neque ducimus.
+                        </p>
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Doloribus
+            sapiente, autem delectus totam expedita
+            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
+            tempora quaerat?</p>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
+    </section>
+
+
+
+    <footer class="bg-dark text-center text-light p-4">
+        <p class="mb-0">Jose Vinet 2024. Todos los derechos reservados.</p>
+    </footer>
     <script src="https://kit.fontawesome.com/2162a61927.js" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
