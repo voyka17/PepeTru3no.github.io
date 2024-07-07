@@ -3,8 +3,12 @@
 }
 
 #Hero-Section {
-    background-image: url("../img/pexels-pixabay-261763.jpg");
+    background-image: url("../imgs/fotoCurriculum.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+}
+
+nav{
+    position: sticky
 }
